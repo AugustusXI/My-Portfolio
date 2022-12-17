@@ -1,13 +1,84 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    padding-top: 100px;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+header {
+/* background: #f7f7; */
+background-image: linear-gradient(350deg, #11c4e2A6, #ef3aa5A6);
+/* #ef3aa5 */
+backdrop-filter: blur(15px);
+position: fixed;
+top: 0;
+width: 100%;
+box-shadow: 1px 3px 15px 0px rgba(0,0,0,0.42)}
+header::after {
+content: "";
+display: table;
+clear: both;
+}
+/* navbar */
+.navBar {
+    width: 80%;
+    margin: 0 auto;
+
+}
+.brand {
+    float: left;
+    padding: 5px 0;
+}
+nav {
+    float: right;
+}
+nav ul {
+margin: 0;
+padding: 0;
+list-style: none;
+}
+nav li {
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 35px;
+    position: relative;
+}
+nav a {
+    color: #444;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+nav a:hover {
+    color:black
+}
+nav a:before {
+    content: "";
+    display: block;
+    height: 5px;
+    width: 100%;
+    background-color: black;
+
+    position: absolute;
+    top: 0;
+    width: 0%;
+
+    transition: all ease-in-out 200ms;
+}
+nav a:hover::before {
+    width: 100%;
+}
+/* ---------------------- */
+.hero {
+    display: flex;
+}
+.heroImg {
+    max-width: 25vw;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.projectImg {
+    max-width: 20vw;
+    align-self: center;
+}
+.projectList{
+    display:flex;
+    gap:10px;
+    /* justify-content: space-between; */
 }
