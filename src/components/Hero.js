@@ -6,9 +6,9 @@ const Hero = () => {
         <div className="container">
 
             <h1 className="hello">Hello,</h1>
-            <h2>My name is Landon August Tucker</h2>
+            <h2 className="subTitle">My name is Landon August Tucker</h2>
             <img className="heroImg" src={MyImage} alt="Landon August" />
-            <h2>I Make Websites</h2>
+            <h1 className="title">I Make Websites</h1>
 
         </div>
     );

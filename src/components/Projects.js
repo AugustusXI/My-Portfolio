@@ -5,7 +5,10 @@ import ProjectThree from "../assets/weather-dashboard.jpg";
 
 const Projects = () => {
     return (
-      <section className="projectList">
+      
+      <section className="container">
+        <h2>My Work</h2>
+        <div className="projectList">
                  <a href="https://github.com/AugustusXI/Stocked-and-Loaded">
                   <img className="projectImg" src={ProjectOne} alt="Stocked and Loaded" />
                  </a>
@@ -15,7 +18,7 @@ const Projects = () => {
                  <a href="https://augustusxi.github.io/Weather-Dashboard/">
                   <img className="projectImg" src={ProjectThree} alt="Weather Dashboard" />
                  </a>
-
+                 </div>
       </section>
     );
   };
