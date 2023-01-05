@@ -1,14 +1,13 @@
-import react from "react";
+import { useRef } from "react";
+import { FaBars, FaTimes } from "react-icons/fa";
+import "../styles/index.css";
+// ===========================================
+
 const NavBar = () => {
-  const hamburger = document.querySelector(".hamburger");
-  const navMenu = document.querySelector(".nav-menu");
-
-  hamburger.addEventListener("click", mobileMenu);
-
-  function mobileMenu() {
-    hamburger.classList.toggle("active");
-    navMenu.classList.toggle("active");
-  }
+  const navRef = useRef();
+  const showNavbar = () => {
+    navRef.current.classList.toggle("responsive_nav");
+  };
   return (
     <header>
       <div className="navBar">
@@ -27,13 +26,14 @@ const NavBar = () => {
               <a href="#">Contact Me</a>
             </li>
           </ul>
+          <button className="nav-btn nav-close-btn" onClick={showNavbar}>
+            <FaTimes />
+          </button>
         </nav>
       </div>
-      <div class="hamburger">
-        <span class="bar"></span>
-        <span class="bar"></span>
-        <span class="bar"></span>
-      </div>
+      <button className="nav-btn" onClick={showNavbar}>
+        <FaBars />
+      </button>
     </header>
   );
 };
