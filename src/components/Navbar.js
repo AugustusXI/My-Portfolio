@@ -14,7 +14,7 @@ const NavBar = () => {
         <div className="brand">
           <h1>Landon August</h1>
         </div>
-        <nav>
+        <nav ref={navRef}>
           <ul>
             <li>
               <a href="#myWork">My Work</a>
