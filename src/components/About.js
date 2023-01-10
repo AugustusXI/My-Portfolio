@@ -5,7 +5,8 @@ const About = () => {
     <div id="about" className="container">
       <h1>Who I am</h1>
       <p>
-        I'm definitely gonna write some stuff about me here. just give it a sec.
+        Creative Full Stack Web Developer with additional expertise in
+        marketing, SEO, graphic design, and social media management
       </p>
     </div>
   );
