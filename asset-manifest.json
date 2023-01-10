@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.e117e999.css",
-    "main.js": "/static/js/main.75f09f50.js",
+    "main.css": "/static/css/main.99328d70.css",
+    "main.js": "/static/js/main.3824e9c5.js",
     "static/media/stocked-and-loaded.jpg": "/static/media/stocked-and-loaded.9301322cf53b0d986b3a.jpg",
     "static/media/weather-dashboard.jpg": "/static/media/weather-dashboard.483dfe6210451fffcd86.jpg",
     "static/media/visit-denver.jpg": "/static/media/visit-denver.3e1b860f1e90554d82d1.jpg",
@@ -9,11 +9,11 @@
     "index.html": "/index.html",
     "static/media/wave-blue3.svg": "/static/media/wave-blue3.5ff868c4dab326b53d9d.svg",
     "static/media/wave-pink3.svg": "/static/media/wave-pink3.7da1db72d83208d344b2.svg",
-    "main.e117e999.css.map": "/static/css/main.e117e999.css.map",
-    "main.75f09f50.js.map": "/static/js/main.75f09f50.js.map"
+    "main.99328d70.css.map": "/static/css/main.99328d70.css.map",
+    "main.3824e9c5.js.map": "/static/js/main.3824e9c5.js.map"
   },
   "entrypoints": [
-    "static/css/main.e117e999.css",
-    "static/js/main.75f09f50.js"
+    "static/css/main.99328d70.css",
+    "static/js/main.3824e9c5.js"
   ]
 }
