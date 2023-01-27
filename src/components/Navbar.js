@@ -23,7 +23,7 @@ const NavBar = () => {
               <a href="#about">About</a>
             </li>
             <li>
-              <a href="#">Contact Me</a>
+              <a href="#contactMe">Contact Me</a>
             </li>
           </ul>
           <button className="nav-btn nav-close-btn" onClick={showNavbar}>

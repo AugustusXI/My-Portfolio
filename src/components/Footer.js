@@ -53,7 +53,7 @@ const Footer = () => {
             </a>
           </li>
           <li className="menu__item">
-            <a className="menu__link" href="#">
+            <a className="menu__link" href="#contactMe">
               Contact
             </a>
           </li>
@@ -64,7 +64,7 @@ const Footer = () => {
           src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
         ></script>
         <script
-          nomodule
+          noModule
           src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
         ></script>
       </footer>

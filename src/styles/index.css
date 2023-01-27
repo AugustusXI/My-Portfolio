@@ -364,6 +364,31 @@ h2 {
   /* justify-content: space-between; */
 }
 
+.tooltip .tooltipText {
+  visibility: hidden;
+  max-width: 33vw;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  justify-content: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+}
+.tooltip:hover .tooltipText {
+  visibility: visible;
+}
+/* Contact Me */
+/* =============================================== */
+.link {
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  justify-content: center;
+  color: #000;
+}
+
 /* hex codes */
 /* #88D18A */
 
