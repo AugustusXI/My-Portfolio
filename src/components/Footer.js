@@ -10,6 +10,30 @@ const Footer = () => {
           <div className="waveBlue" id="wave3"></div>
           <div className="wavePink" id="wave4"></div>
         </div>
+       
+        {/* <section id="contactMe" className="container">
+      <div className="floatLeft">
+        <form className="form">
+        <div className="pageTitle title">Let's Connect! </div>
+         <div className="secondaryTitle title">
+          Let's work together.
+        </div> 
+        <input type="text" className="name formEntry" placeholder="Name" />
+        <input type="text" className="email formEntry" placeholder="Email" />
+        <textarea
+          className="message formEntry"
+          placeholder="Message"
+          ></textarea>
+        <input type="checkbox" className="termsConditions" value="Term" />
+        <label className="terms">
+          Captch Captcha.
+        </label>
+        <button className="submit formEntry">Submit</button>
+          </form>
+      </div>
+    </section> */}
+  
+    <section className="floatRight">
         <ul className="social-icon">
           <li className="social-icon__item">
             <a
@@ -59,6 +83,7 @@ const Footer = () => {
           </li>
         </ul>
         <p>&copy;2023 Landon August | All Rights Reserved</p>
+        </section>
         <script
           type="module"
           src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"

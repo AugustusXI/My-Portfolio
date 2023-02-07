@@ -1,3 +1,8 @@
+:root {
+  --primaryColor: #11c4e2;
+  --secondaryColor: #ef3aa5;
+  --textColor: #000000;
+}
 .form {
   background: #fff;
   box-shadow: 0 30px 60px 0 rgba(90, 116, 148, 0.4);
@@ -9,8 +14,12 @@
   padding-bottom: 5px;
   left: 0;
   right: 0;
-  position: absolute;
-  border-top: 5px solid #0e3721;
+  position: relative;
+  /* border-top: 5px solid #11c4e2; */
+  border: 10px solid;
+  border-image-slice: 1;
+  border-width: 5px;
+  border-image-source: linear-gradient(to left, #11c4e2, #ef3aa5);
   /*   z-index: 1; */
   animation: bounce 1.5s infinite;
 }
@@ -34,6 +43,7 @@
 }
 .secondaryTitle {
   color: grey;
+  font-size:1.5em;
 }
 
 .name {
@@ -59,10 +69,15 @@
   transition: ease 0.5s;
 }
 
+.terms {
+  min-width: 380px;
+  margin: 380px 
+}
 .message {
   background-color: #ebebeb;
   overflow: hidden;
   height: 10rem;
+  margin-left: 1rem;
 }
 
 .message:hover {
@@ -95,6 +110,9 @@
   width: 300px;
   border-top: 5px solid #0e3750;
   border-radius: 0%;
+}
+.floatLeft {
+
 }
 
 @keyframes bounce {

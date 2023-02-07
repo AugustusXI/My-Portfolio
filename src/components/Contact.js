@@ -2,27 +2,27 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <section id="contactMe" className="container">
-      <div className="wrapper">
+{/* <section id="contactMe" className="container">
+      <div className="floatLeft">
         <form className="form">
-          <input type="text" className="name formEntry" placeholder="Name" />
-        </form>
-        <div className="pageTitle title">Sign Up </div>
+        <div className="pageTitle title">Let's Connect! </div>
         <div className="secondaryTitle title">
-          Please fill this form to sign up.
-        </div>
+          Let's work together.
+        </div> 
+        <input type="text" className="name formEntry" placeholder="Name" />
         <input type="text" className="email formEntry" placeholder="Email" />
         <textarea
           className="message formEntry"
           placeholder="Message"
-        ></textarea>
+          ></textarea>
         <input type="checkbox" className="termsConditions" value="Term" />
-        <label for="terms">
-          I Accept the <span>Terms of Use</span> &<span>Privacy Policy</span>.
+        <label className="terms">
+          Captch Captcha.
         </label>
         <button className="submit formEntry">Submit</button>
+          </form>
       </div>
-    </section>
+    </section> */}
   );
 };
 
